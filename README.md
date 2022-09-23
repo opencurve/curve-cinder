@@ -12,7 +12,7 @@
 
 # 安装
 - 在cinder-volume节点安装curve-sdk，参考[curve-sdk部署](https://github.com/opencurve/curve/blob/master/docs/cn/deploy.md)
-- 安装curvefs for python sdk，whl包[下载](https://curve-release.nos-eastchina1.126.net/v1.1.0/curvefs-1.1.0%2B114bb5967-py3-none-any.whl)
+- 安装curvefs for python sdk，whl包[下载](https://github.com/opencurve/curve/releases/download/v1.2.5/curvefs-1.2.5+2c4861ca-py2-none-any.whl)
 - 将curve目录复制到cinder/volumes/drivers目录中，并重启cinder-volume
 
 # 配置
